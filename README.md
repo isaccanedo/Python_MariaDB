@@ -21,17 +21,23 @@ A biblioteca tabulate é uma biblioteca Python que facilita a formatação e exi
 
 Aqui estão os principais pontos sobre a biblioteca tabulate:
 
-```1 - Formatação de Tabelas:
+```
+1 - Formatação de Tabelas:
 A tabulate permite criar tabelas a partir de listas, dicionários ou objetos iteráveis.
-Você pode especificar o formato da tabela (por exemplo, “plain”, “grid”, “html”, “latex”, etc.) para atender às suas necessidades de exibição.```
+Você pode especificar o formato da tabela (por exemplo, “plain”, “grid”, “html”, “latex”, etc.) para atender às suas necessidades de exibição.
+```
 
-```2 - Personalização:
+```
+2 - Personalização:
 É possível personalizar a aparência da tabela, incluindo a escolha de cabeçalhos, alinhamento de colunas, largura das colunas e muito mais.
-A biblioteca oferece opções para controlar a formatação, como a capacidade de ocultar índices de linha ou coluna.```
+A biblioteca oferece opções para controlar a formatação, como a capacidade de ocultar índices de linha ou coluna.
+```
 
-```3 - Suporte a Diferentes Tipos de Dados:
+```
+3 - Suporte a Diferentes Tipos de Dados:
 A tabulate lida bem com diferentes tipos de dados, como números, strings e datas.
-Ela pode formatar automaticamente os valores de acordo com o tipo de dado.```
+Ela pode formatar automaticamente os valores de acordo com o tipo de dado.
+```
 
 from tabulate import tabulate
 
