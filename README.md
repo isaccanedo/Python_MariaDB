@@ -18,18 +18,19 @@ Exemplo de uma conexão básica ao Banco de Dados MariaDb através do Python. Es
 
 ## Biblioteca Tabulate
 A biblioteca tabulate é uma biblioteca Python que facilita a formatação e exibição de dados tabulares em formato de tabela. Ela é especialmente útil quando você precisa apresentar informações de maneira organizada e legível, seja no console, em relatórios ou até mesmo em documentos Markdown.
+A tabulate é frequentemente usada em conjunto com outras bibliotecas Python, como pandas, para formatar e exibir dados de DataFrames.
 
-Aqui estão os principais pontos sobre a biblioteca tabulate:
+### Aqui estão os principais pontos sobre a biblioteca tabulate
 
 ```
-1 - Formatação de Tabelas:
+1 - *Formatação de Tabelas*
 A tabulate permite criar tabelas a partir de listas, dicionários ou objetos iteráveis.
 Você pode especificar o formato da tabela (por exemplo, “plain”, “grid”, “html”, “latex”, etc.)
 para atender às suas necessidades de exibição.
 ```
 
 ```
-2 - Personalização:
+2 - *Personalização*
 É possível personalizar a aparência da tabela, incluindo a escolha de cabeçalhos,
 alinhamento de colunas, largura das colunas e muito mais.
 A biblioteca oferece opções para controlar a formatação, como a capacidade de ocultar
@@ -37,11 +38,12 @@ A biblioteca oferece opções para controlar a formatação, como a capacidade d
 ```
 
 ```
-3 - Suporte a Diferentes Tipos de Dados:
+3 - *Suporte a Diferentes Tipos de Dados*
 A tabulate lida bem com diferentes tipos de dados, como números, strings e datas.
 Ela pode formatar automaticamente os valores de acordo com o tipo de dado.
 ```
 
+```
 from tabulate import tabulate
 
 data = [
@@ -55,6 +57,16 @@ headers = ["Nome", "Idade", "Profissão"]
 # Formatação da tabela em estilo "grid"
 table = tabulate(data, headers, tablefmt="grid")
 print(table)
+```
+
+### Isso produzirá a seguinte tabela
++--------+-------+------------+
+| Nome   | Idade | Profissão  |
++--------+-------+------------+
+| Alice  | 25    | Engineer   |
+| Bob    | 30    | Designer   |
+| Carol  | 22    | Developer  |
++--------+-------+------------+
 
 
 
