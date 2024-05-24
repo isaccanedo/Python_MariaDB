@@ -20,7 +20,7 @@ try:
         registros = cursor.fetchall()
 
         # Exibir os registros
-        print(tabulate(registros, headers=["ID", "Nome", "Senha"], tablefmt="pretty"))
+        print(tabulate(registros, headers=["ID", "Nome", "Senha"]))
 
 except Error as e:
     print(f"Erro ao conectar ao MariaDB: {e}")
