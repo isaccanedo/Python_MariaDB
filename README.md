@@ -24,13 +24,16 @@ Aqui estão os principais pontos sobre a biblioteca tabulate:
 ```
 1 - Formatação de Tabelas:
 A tabulate permite criar tabelas a partir de listas, dicionários ou objetos iteráveis.
-Você pode especificar o formato da tabela (por exemplo, “plain”, “grid”, “html”, “latex”, etc.) para atender às suas necessidades de exibição.
+Você pode especificar o formato da tabela (por exemplo, “plain”, “grid”, “html”, “latex”, etc.)
+para atender às suas necessidades de exibição.
 ```
 
 ```
 2 - Personalização:
-É possível personalizar a aparência da tabela, incluindo a escolha de cabeçalhos, alinhamento de colunas, largura das colunas e muito mais.
-A biblioteca oferece opções para controlar a formatação, como a capacidade de ocultar índices de linha ou coluna.
+É possível personalizar a aparência da tabela, incluindo a escolha de cabeçalhos,
+alinhamento de colunas, largura das colunas e muito mais.
+A biblioteca oferece opções para controlar a formatação, como a capacidade de ocultar
+índices de linha ou coluna.
 ```
 
 ```
