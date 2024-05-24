@@ -60,15 +60,12 @@ print(table)
 ```
 
 ### Isso produzirá a seguinte tabela
-+--------+-------+------------+
+
 | Nome   | Idade | Profissão  |
-+--------+-------+------------+
+|--------|-------|------------|
 | Alice  | 25    | Engineer   |
 | Bob    | 30    | Designer   |
 | Carol  | 22    | Developer  |
-+--------+-------+------------+
-
-
 
 ## Executando o aplicativo
 
