@@ -16,9 +16,11 @@ Exemplo de uma conexão básica ao Banco de Dados MariaDb através do Python. Es
 3. Execute o script SQL fornecido (`schema.sql`) para criar a tabela de usuários.
 4. Atualize as credenciais de conexão no arquivo `app.py` com as informações do seu banco de dados.
 
+
 ## Biblioteca Tabulate
+
+**OBSERVAÇÃO**
 ```
-*OBSERVAÇÃO* 
 Para obter os resultados no console não precisa da biblioteca Tabulate, essa biblioteca é apenas
 um adicional caso você queira uma saída no console mais elegante.
 ```
