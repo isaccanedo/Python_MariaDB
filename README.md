@@ -1,4 +1,4 @@
-# Agenda
+# Conexão básica ao Banco de Dados MariaDb através do Python
 
 Exemplo de uma conexão básica ao Banco de Dados MariaDb através do Python. Este exemplo simples conecta a um banco de dados MariaDB (MySQL) para obter informações de usuários.
 
@@ -20,4 +20,4 @@ Exemplo de uma conexão básica ao Banco de Dados MariaDb através do Python. Es
 Execute o seguinte comando no terminal:
 
 ```bash
-python app.py
+python mysql_example.py
