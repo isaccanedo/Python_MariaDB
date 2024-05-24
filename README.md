@@ -19,7 +19,8 @@ Exemplo de uma conexão básica ao Banco de Dados MariaDb através do Python. Es
 ## Biblioteca Tabulate
 ```
 *OBSERVAÇÃO* 
-Para obter os resultados no console não precisa da biblioteca Tabulate, essa biblioteca é um adicional caso você queira uma saída no console mais elegante
+Para obter os resultados no console não precisa da biblioteca Tabulate, essa biblioteca é apenas
+um adicional caso você queira uma saída no console mais elegante.
 ```
 A biblioteca tabulate é uma biblioteca Python que facilita a formatação e exibição de dados tabulares em formato de tabela. Ela é especialmente útil quando você precisa apresentar informações de maneira organizada e legível, seja no console, em relatórios ou até mesmo em documentos Markdown.
 A tabulate é frequentemente usada em conjunto com outras bibliotecas Python, como pandas, para formatar e exibir dados de DataFrames.
